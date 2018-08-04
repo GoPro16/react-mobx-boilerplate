@@ -1,0 +1,15 @@
+@import "src/resources/theme.scss";
+
+.app-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    background:$grey;
+    color:$white;
+    >*{
+        margin: 8px;    
+        width: 100%;
+        text-align: center;
+    }
+}
